@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#D3D3D3"
+    android:background="@color/layout"
     tools:context=".MainActivity"
     android:gravity="center">
 
@@ -15,25 +15,28 @@
 
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/bnt1"
             android:layout_width="40pt"
             android:layout_height="40pt"
-            android:layout_margin="5pt"
-            android:background="#F9F9F9" />
+            android:layout_margin="3pt"
+            android:background="@color/btn"
+            android:onClick="btnClick" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/bnt2"
             android:layout_width="wrap_content"
             android:layout_height="40pt"
-            android:layout_margin="5pt"
-            android:background="#F9F9F9" />
+            android:layout_margin="3pt"
+            android:background="@color/btn"
+            android:onClick="btnClick" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/bnt3"
             android:layout_width="40pt"
             android:layout_height="40pt"
-            android:layout_margin="5pt"
-            android:background="#F9F9F9" />
+            android:layout_margin="3pt"
+            android:background="@color/btn"
+            android:onClick="btnClick" />
     </TableRow>
 
     <TableRow
@@ -42,25 +45,28 @@
         android:gravity="center">
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/bnt4"
             android:layout_width="40pt"
             android:layout_height="40pt"
-            android:layout_margin="5pt"
-            android:background="#F9F9F9" />
+            android:layout_margin="3pt"
+            android:background="@color/btn"
+            android:onClick="btnClick" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/bnt5"
             android:layout_width="wrap_content"
             android:layout_height="40pt"
-            android:layout_margin="5pt"
-            android:background="#F9F9F9" />
+            android:layout_margin="3pt"
+            android:background="@color/btn"
+            android:onClick="btnClick" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/bnt6"
             android:layout_width="40pt"
             android:layout_height="40pt"
-            android:layout_margin="5pt"
-            android:background="#F9F9F9" />
+            android:layout_margin="3pt"
+            android:background="@color/btn"
+            android:onClick="btnClick" />
     </TableRow>
 
     <TableRow
@@ -69,25 +75,28 @@
         android:gravity="center">
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/bnt7"
             android:layout_width="40pt"
             android:layout_height="40pt"
-            android:layout_margin="5pt"
-            android:background="#F9F9F9" />
+            android:layout_margin="3pt"
+            android:background="@color/btn"
+            android:onClick="btnClick" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/bnt8"
             android:layout_width="wrap_content"
             android:layout_height="40pt"
-            android:layout_margin="5pt"
-            android:background="#F9F9F9" />
+            android:layout_margin="3pt"
+            android:background="@color/btn"
+            android:onClick="btnClick" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/bnt9"
             android:layout_width="40pt"
             android:layout_height="40pt"
-            android:layout_margin="5pt"
-            android:background="#F9F9F9" />
+            android:layout_margin="3pt"
+            android:background="@color/btn"
+            android:onClick="btnClick" />
     </TableRow>
 
 </TableLayout>
